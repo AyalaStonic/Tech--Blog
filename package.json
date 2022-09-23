@@ -177,13 +177,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Leocrydis/Tech-Blog.git"
+    "url": "git+https://github.com/AyalaStonic/Tech--Blog"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Leocrydis/Tech-Blog/issues"
+    "url": "https://github.com/AyalaStonic/Tech--Blog"
   },
-  "homepage": "https://github.com/Leocrydis/Tech-Blog#readme"
+  "homepage": "https://github.com/AyalaStonic/Tech--Blog#readme"
 }

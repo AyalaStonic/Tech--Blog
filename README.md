@@ -22,6 +22,3 @@ Use the "Login" link to login to an existing account or create a new account.  L
 ## Questions
 If you have any questions about the repo, you can find more of my work on my GitHub, [AyalaStonic](https://github.com/AyalaStonic/Tech--Blog).
 <br><br>
-
-## Contributions
-* Built with enthusiasm by Duvan Ayala Stonic.

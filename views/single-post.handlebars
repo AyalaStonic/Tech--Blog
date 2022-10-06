@@ -1,11 +1,27 @@
-{{> post-info post }}
+<a href="/dashboard" style="color: blue;"> &larr; Back to dashboard</a>
 
+{{> post-info post}}
+{{> comments post.comments}}
 {{#if loggedIn}}
-{{> comment-form}}
+<article class="post">
+  <div class="title">
+    Add Comment
+  </div>
+  <div class="content">
+    <form class="comment-form">
+      <div>
+        <label for="comment-body">Comment</label>
+        <textarea name="comment-body" style="width: 100%;"></textarea>
+      </div>
+
+      <div>
+        <button type="submit">add comment</button>
+      </div>
+    </form>
+  </div>
+</article>
 {{/if}}
 
-{{> comments post.comments}}
-
 {{#if loggedIn}}
-<script src="../public/javascript/comment.js"></script>
+<script src="/javascript/comment.js"></script>
 {{/if}}

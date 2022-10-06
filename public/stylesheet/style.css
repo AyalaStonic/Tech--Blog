@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: lightblue;
+  background-color: green;
 }
 body, html {
   height: 100%;
@@ -89,7 +89,7 @@ header {
 header h1 {
   font-size: 2.8em;
   color: black;
-  background-color: lightblue;
+  background-color: green;
   padding:  10px 25px;
   border-radius: 5px;
   box-shadow:  5px 5px #a7a7a7;
@@ -137,7 +137,7 @@ main {
   justify-content: space-between;
   align-items: center;
   background-color: #231010;
-  color: lightblue;
+  color: blue;
   font-size: 1.2em;
   padding: 10px 5px;
 }
@@ -145,7 +145,7 @@ main {
 .post .title span {
   font-style: italic;
   font-size: 70%;
-  color: lightblue;
+  color: blue;
 }
 
 .post .content {

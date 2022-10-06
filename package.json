@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kristafrancis/mvc-tech-blog.git"
+    "url": "git+https://github.com/AyalaStonic/Tech--Blog"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kristafrancis/mvc-tech-blog/issues"
+    "url": "https://github.com/AyalaStonic/Tech--Blog/issues"
   },
-  "homepage": "https://github.com/kristafrancis/mvc-tech-blog#readme",
+  "homepage": "https://github.com/AyalaStonic/Tech--Blog#readme",
   "dependencies": {
     "bcrypt": "^5.0.1",
     "connect-session-sequelize": "^7.1.5",

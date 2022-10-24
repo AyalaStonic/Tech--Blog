@@ -1,26 +1,22 @@
-<a href="/dashboard" style="color: blue;"> &larr; Back to dashboard</a>
+<a href="/dashboard" class="go-back"> &larr; Back to dashboard</a>
+<br>
+<br>
 
 {{> post-info post}}
-{{> comments post.comments}}
-{{#if loggedIn}}
-<article class="post">
-  <div class="title">
-    Add Comment
-  </div>
-  <div class="content">
-    <form class="comment-form">
-      <div>
-        <label for="comment-body">Comment</label>
-        <textarea name="comment-body" style="width: 100%;"></textarea>
-      </div>
 
-      <div>
+{{#if loggedIn}}
+<form class="comment-form">
+    <div>
+        <textarea name="comment-body"></textarea>
+    </div>
+
+    <div>
         <button type="submit">add comment</button>
-      </div>
-    </form>
-  </div>
-</article>
+    </div>
+</form>
 {{/if}}
+
+{{> comments post.comments}}
 
 {{#if loggedIn}}
 <script src="/javascript/comment.js"></script>
